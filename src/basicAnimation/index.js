@@ -6,7 +6,6 @@ import Animation_Spring_Scale from "./Animation_Spring_Scale";
 import Spring_Translate from "./Spring_Translate";
 import Animated_ChangeColor from "./Animated_ChangeColor";
 import Animated_Easing from "./Animated_Easing";
-import Animated_Paralle from "./Animated_Paralle";
 import Animated_Scale from "./Animated_Scale";
 import Animated_Sequence from "./Animated_Sequence";
 
@@ -19,7 +18,6 @@ export {
   Spring_Translate,
   Animated_ChangeColor,
   Animated_Easing,
-  Animated_Paralle,
   Animated_Scale,
   Animated_Sequence
 };

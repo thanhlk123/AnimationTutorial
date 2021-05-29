@@ -10,9 +10,10 @@ const listAnimationName = [
   "Spring-Translate",
   "ChangeColor",
   "Easing",
-  "Paralle",
   "Scale",
   "Sequence",
+  "MoveToConner",
+  "MoveToConner2",
 ];
 
 const renderItem = (name, navigation) => {

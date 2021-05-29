@@ -5,6 +5,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
 
 import * as Animation from "./src/basicAnimation/index";
+import * as Advance from "./src/advance";
 import DashBoard from "./src/DashBoard";
 
 const RootStack = createStackNavigator();
@@ -30,10 +31,7 @@ export default function App() {
           name="Dragable"
           component={Animation.Animation_Dragable}
         />
-        <RootStack.Screen
-          name="Loop"
-          component={Animation.Animation_Loop}
-        />
+        <RootStack.Screen name="Loop" component={Animation.Animation_Loop} />
         <RootStack.Screen
           name="Spring-Scale"
           component={Animation.Animation_Spring_Scale}
@@ -46,21 +44,19 @@ export default function App() {
           name="ChangeColor"
           component={Animation.Animated_ChangeColor}
         />
-        <RootStack.Screen
-          name="Easing"
-          component={Animation.Animated_Easing}
-        />
-        <RootStack.Screen
-          name="Paralle"
-          component={Animation.Animated_Paralle}
-        />
-        <RootStack.Screen
-          name="Scale"
-          component={Animation.Animated_Scale}
-        />
+        <RootStack.Screen name="Easing" component={Animation.Animated_Easing} />
+        <RootStack.Screen name="Scale" component={Animation.Animated_Scale} />
         <RootStack.Screen
           name="Sequence"
           component={Animation.Animated_Sequence}
+        />
+        <RootStack.Screen
+          name="MoveToConner"
+          component={Advance.MoveToConner}
+        />
+        <RootStack.Screen
+          name="MoveToConner2"
+          component={Advance.MoveToConner2}
         />
       </RootStack.Navigator>
     </NavigationContainer>
