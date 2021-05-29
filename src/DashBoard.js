@@ -1,7 +1,19 @@
 import React from "react";
 import { ScrollView, Text, StyleSheet, TouchableOpacity } from "react-native";
 
-const listAnimationName = ["Dragable", "Dragable-Decay"];
+const listAnimationName = [
+  "Dragable",
+  "Dragable-Decay",
+  "ScrollChangeBackground",
+  "Loop",
+  "Spring-Scale",
+  "Spring-Translate",
+  "ChangeColor",
+  "Easing",
+  "Paralle",
+  "Scale",
+  "Sequence",
+];
 
 const renderItem = (name, navigation) => {
   return (
@@ -16,7 +28,10 @@ const renderItem = (name, navigation) => {
 
 const DashBoard = ({ navigation }) => {
   return (
-    <ScrollView style={styles.container} contentContainerStyle={styles.centerItem}>
+    <ScrollView
+      style={styles.container}
+      contentContainerStyle={styles.centerItem}
+    >
       {listAnimationName.map((e) => renderItem(e, navigation))}
     </ScrollView>
   );

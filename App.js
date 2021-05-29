@@ -23,8 +23,44 @@ export default function App() {
           component={Animation.Animation_Decay}
         />
         <RootStack.Screen
+          name="ScrollChangeBackground"
+          component={Animation.Animation_ScrollChangeBackground}
+        />
+        <RootStack.Screen
           name="Dragable"
           component={Animation.Animation_Dragable}
+        />
+        <RootStack.Screen
+          name="Loop"
+          component={Animation.Animation_Loop}
+        />
+        <RootStack.Screen
+          name="Spring-Scale"
+          component={Animation.Animation_Spring_Scale}
+        />
+        <RootStack.Screen
+          name="Spring-Translate"
+          component={Animation.Spring_Translate}
+        />
+        <RootStack.Screen
+          name="ChangeColor"
+          component={Animation.Animated_ChangeColor}
+        />
+        <RootStack.Screen
+          name="Easing"
+          component={Animation.Animated_Easing}
+        />
+        <RootStack.Screen
+          name="Paralle"
+          component={Animation.Animated_Paralle}
+        />
+        <RootStack.Screen
+          name="Scale"
+          component={Animation.Animated_Scale}
+        />
+        <RootStack.Screen
+          name="Sequence"
+          component={Animation.Animated_Sequence}
         />
       </RootStack.Navigator>
     </NavigationContainer>
