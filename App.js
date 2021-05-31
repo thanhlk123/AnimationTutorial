@@ -58,6 +58,18 @@ export default function App() {
           name="MoveToConner2"
           component={Advance.MoveToConner2}
         />
+        <RootStack.Screen
+          name="StaggeredHead"
+          component={Advance.StaggeredHead}
+        />
+        <RootStack.Screen
+          name="StaggerForm"
+          component={Advance.StaggerForm}
+        />
+        <RootStack.Screen
+          name="ProgressBar"
+          component={Advance.ProgressBar}
+        />
       </RootStack.Navigator>
     </NavigationContainer>
   );

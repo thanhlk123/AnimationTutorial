@@ -14,13 +14,17 @@ const listAnimationName = [
   "Sequence",
   "MoveToConner",
   "MoveToConner2",
+  "StaggeredHead",
+  "StaggerForm",
+  "ProgressBar",
 ];
 
-const renderItem = (name, navigation) => {
+const renderItem = (name, navigation, index) => {
   return (
     <TouchableOpacity
       onPress={() => navigation.navigate(name)}
       style={styles.itemContainer}
+      key={index}
     >
       <Text style={styles.textStyle}>{name}</Text>
     </TouchableOpacity>
@@ -33,7 +37,7 @@ const DashBoard = ({ navigation }) => {
       style={styles.container}
       contentContainerStyle={styles.centerItem}
     >
-      {listAnimationName.map((e) => renderItem(e, navigation))}
+      {listAnimationName.map((e, index) => renderItem(e, navigation, index))}
     </ScrollView>
   );
 };
