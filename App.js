@@ -70,6 +70,10 @@ export default function App() {
           name="ProgressBar"
           component={Advance.ProgressBar}
         />
+        <RootStack.Screen
+          name="DynamicNotification"
+          component={Advance.DynamicNotification}
+        />
       </RootStack.Navigator>
     </NavigationContainer>
   );

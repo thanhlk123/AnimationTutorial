@@ -17,6 +17,7 @@ const listAnimationName = [
   "StaggeredHead",
   "StaggerForm",
   "ProgressBar",
+  "DynamicNotification",
 ];
 
 const renderItem = (name, navigation, index) => {
