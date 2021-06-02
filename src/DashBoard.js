@@ -18,6 +18,8 @@ const listAnimationName = [
   "StaggerForm",
   "ProgressBar",
   "DynamicNotification",
+  "Questionnaire",
+  "Technique_99Cliff",
 ];
 
 const renderItem = (name, navigation, index) => {

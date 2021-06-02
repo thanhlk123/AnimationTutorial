@@ -4,6 +4,8 @@ import StaggeredHead from "./StaggeredHead";
 import StaggerForm from "./StaggerForm";
 import ProgressBar from "./ProgressBar";
 import DynamicNotification from "./DynamicNotification";
+import Questionnaire from "./Questionnaire";
+import Technique_99Cliff from "./Technique_99Cliff";
 
 export {
   MoveToConner,
@@ -12,4 +14,6 @@ export {
   StaggerForm,
   ProgressBar,
   DynamicNotification,
+  Questionnaire,
+  Technique_99Cliff,
 };

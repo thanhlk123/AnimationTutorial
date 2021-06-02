@@ -62,17 +62,19 @@ export default function App() {
           name="StaggeredHead"
           component={Advance.StaggeredHead}
         />
-        <RootStack.Screen
-          name="StaggerForm"
-          component={Advance.StaggerForm}
-        />
-        <RootStack.Screen
-          name="ProgressBar"
-          component={Advance.ProgressBar}
-        />
+        <RootStack.Screen name="StaggerForm" component={Advance.StaggerForm} />
+        <RootStack.Screen name="ProgressBar" component={Advance.ProgressBar} />
         <RootStack.Screen
           name="DynamicNotification"
           component={Advance.DynamicNotification}
+        />
+        <RootStack.Screen
+          name="Questionnaire"
+          component={Advance.Questionnaire}
+        />
+        <RootStack.Screen
+          name="Technique_99Cliff"
+          component={Advance.Technique_99Cliff}
         />
       </RootStack.Navigator>
     </NavigationContainer>
