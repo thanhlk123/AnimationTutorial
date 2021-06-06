@@ -20,6 +20,8 @@ const listAnimationName = [
   "DynamicNotification",
   "Questionnaire",
   "Technique_99Cliff",
+  "Svg_Flubber",
+  "Canvas_Test",
 ];
 
 const renderItem = (name, navigation, index) => {

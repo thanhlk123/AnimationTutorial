@@ -6,6 +6,8 @@ import ProgressBar from "./ProgressBar";
 import DynamicNotification from "./DynamicNotification";
 import Questionnaire from "./Questionnaire";
 import Technique_99Cliff from "./Technique_99Cliff";
+import Svg_Flubber from "./Svg_Flubber";
+import Canvas_Test from "./canvas_test";
 
 export {
   MoveToConner,
@@ -16,4 +18,6 @@ export {
   DynamicNotification,
   Questionnaire,
   Technique_99Cliff,
+  Svg_Flubber,
+  Canvas_Test
 };

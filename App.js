@@ -76,6 +76,14 @@ export default function App() {
           name="Technique_99Cliff"
           component={Advance.Technique_99Cliff}
         />
+        <RootStack.Screen
+          name="Svg_Flubber"
+          component={Advance.Svg_Flubber}
+        />
+        <RootStack.Screen
+          name="Canvas_Test"
+          component={Advance.Canvas_Test}
+        />
       </RootStack.Navigator>
     </NavigationContainer>
   );
