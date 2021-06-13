@@ -22,6 +22,7 @@ const listAnimationName = [
   "Technique_99Cliff",
   "Svg_Flubber",
   "Canvas_Test",
+  "PhotoGrid"
 ];
 
 const renderItem = (name, navigation, index) => {

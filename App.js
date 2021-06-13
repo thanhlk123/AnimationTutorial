@@ -84,6 +84,10 @@ export default function App() {
           name="Canvas_Test"
           component={Advance.Canvas_Test}
         />
+        <RootStack.Screen
+          name="PhotoGrid"
+          component={Advance.PhotoGrid}
+        />
       </RootStack.Navigator>
     </NavigationContainer>
   );
