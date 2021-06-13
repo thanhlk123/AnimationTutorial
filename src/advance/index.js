@@ -9,6 +9,8 @@ import Technique_99Cliff from "./Technique_99Cliff";
 import Svg_Flubber from "./Svg_Flubber";
 import Canvas_Test from "./canvas_test";
 import PhotoGrid from "./PhotoGrid";
+import ToggleEditor from "./ToggleEditor";
+import ToggleEditorSample from "./ToggleEditor2";
 
 export {
   MoveToConner,
@@ -22,4 +24,6 @@ export {
   Svg_Flubber,
   Canvas_Test,
   PhotoGrid,
+  ToggleEditor,
+  ToggleEditorSample,
 };

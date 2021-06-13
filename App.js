@@ -88,6 +88,14 @@ export default function App() {
           name="PhotoGrid"
           component={Advance.PhotoGrid}
         />
+        <RootStack.Screen
+          name="ToggleEditor"
+          component={Advance.ToggleEditor}
+        />
+        <RootStack.Screen
+          name="ToggleEditorSample"
+          component={Advance.ToggleEditorSample}
+        />
       </RootStack.Navigator>
     </NavigationContainer>
   );
