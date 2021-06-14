@@ -25,6 +25,7 @@ const listAnimationName = [
   "PhotoGrid",
   "ToggleEditor",
   "ToggleEditorSample",
+  "FloatingActionButton",
 ];
 
 const renderItem = (name, navigation, index) => {

@@ -11,6 +11,7 @@ import Canvas_Test from "./canvas_test";
 import PhotoGrid from "./PhotoGrid";
 import ToggleEditor from "./ToggleEditor";
 import ToggleEditorSample from "./ToggleEditor2";
+import FloatingActionButton from "./FloatingActionButton";
 
 export {
   MoveToConner,
@@ -26,4 +27,5 @@ export {
   PhotoGrid,
   ToggleEditor,
   ToggleEditorSample,
+  FloatingActionButton,
 };
