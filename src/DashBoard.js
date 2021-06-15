@@ -26,6 +26,8 @@ const listAnimationName = [
   "ToggleEditor",
   "ToggleEditorSample",
   "FloatingActionButton",
+  "EvolvingWriteButton",
+  "EvolvingSample",
 ];
 
 const renderItem = (name, navigation, index) => {

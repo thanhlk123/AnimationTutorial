@@ -91,6 +91,14 @@ export default function App() {
           name="FloatingActionButton"
           component={Advance.FloatingActionButton}
         />
+        <RootStack.Screen
+          name="EvolvingWriteButton"
+          component={Advance.EvolvingWriteButton}
+        />
+        <RootStack.Screen
+          name="EvolvingSample"
+          component={Advance.EvolvingSample}
+        />
       </RootStack.Navigator>
     </NavigationContainer>
   );

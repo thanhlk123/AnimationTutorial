@@ -12,6 +12,8 @@ import PhotoGrid from "./PhotoGrid";
 import ToggleEditor from "./ToggleEditor";
 import ToggleEditorSample from "./ToggleEditor2";
 import FloatingActionButton from "./FloatingActionButton";
+import EvolvingWriteButton from "./EvolvingWriteBtn";
+import EvolvingSample from "./Evolving2";
 
 export {
   MoveToConner,
@@ -28,4 +30,6 @@ export {
   ToggleEditor,
   ToggleEditorSample,
   FloatingActionButton,
+  EvolvingWriteButton,
+  EvolvingSample
 };
