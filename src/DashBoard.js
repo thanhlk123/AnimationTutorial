@@ -30,7 +30,8 @@ const listAnimationName = [
   "EvolvingSample",
   "SocialComment",
   "SocialCommentSample",
-  "LoveButton"
+  "LoveButton",
+  "HeartBtn",
 ];
 
 const renderItem = (name, navigation, index) => {

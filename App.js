@@ -108,6 +108,7 @@ export default function App() {
           component={Advance.SocialCommentSample}
         />
         <RootStack.Screen name="LoveButton" component={Advance.LoveButton} />
+        <RootStack.Screen name="HeartBtn" component={Advance.HeartBtn} />
       </RootStack.Navigator>
     </NavigationContainer>
   );
