@@ -14,6 +14,10 @@ import ToggleEditorSample from "./ToggleEditor2";
 import FloatingActionButton from "./FloatingActionButton";
 import EvolvingWriteButton from "./EvolvingWriteBtn";
 import EvolvingSample from "./Evolving2";
+import SocialComment from "./SocialComment";
+import SocialCommentSample from "./SocialComment2";
+// import LoveButton from "./LoveButtonSample";
+import LoveButton from "./LoveButton";
 
 export {
   MoveToConner,
@@ -31,5 +35,8 @@ export {
   ToggleEditorSample,
   FloatingActionButton,
   EvolvingWriteButton,
-  EvolvingSample
+  EvolvingSample,
+  SocialComment,
+  SocialCommentSample,
+  LoveButton,
 };

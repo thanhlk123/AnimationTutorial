@@ -28,6 +28,9 @@ const listAnimationName = [
   "FloatingActionButton",
   "EvolvingWriteButton",
   "EvolvingSample",
+  "SocialComment",
+  "SocialCommentSample",
+  "LoveButton"
 ];
 
 const renderItem = (name, navigation, index) => {
@@ -60,6 +63,7 @@ const styles = StyleSheet.create({
   centerItem: {
     justifyContent: "center",
     alignItems: "center",
+    paddingBottom: 50,
   },
   textStyle: {
     color: "red",

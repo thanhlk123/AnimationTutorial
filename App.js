@@ -99,6 +99,15 @@ export default function App() {
           name="EvolvingSample"
           component={Advance.EvolvingSample}
         />
+        <RootStack.Screen
+          name="SocialComment"
+          component={Advance.SocialComment}
+        />
+        <RootStack.Screen
+          name="SocialCommentSample"
+          component={Advance.SocialCommentSample}
+        />
+        <RootStack.Screen name="LoveButton" component={Advance.LoveButton} />
       </RootStack.Navigator>
     </NavigationContainer>
   );
