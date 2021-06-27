@@ -109,6 +109,8 @@ export default function App() {
         />
         <RootStack.Screen name="LoveButton" component={Advance.LoveButton} />
         <RootStack.Screen name="HeartBtn" component={Advance.HeartBtn} />
+        <RootStack.Screen name="NotiSuccess" component={Advance.NotiSuccess} />
+        <RootStack.Screen name="KittenCard" component={Advance.KittenCard} />
       </RootStack.Navigator>
     </NavigationContainer>
   );

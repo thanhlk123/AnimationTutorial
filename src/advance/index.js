@@ -19,6 +19,8 @@ import SocialCommentSample from "./SocialComment2";
 // import LoveButton from "./LoveButtonSample";
 import LoveButton from "./LoveButton";
 import HeartBtn from "./heartButton/HeartBtnSample";
+import NotiSuccess from "./NotiSuccess";
+import KittenCard from "./KittenCard";
 
 export {
   MoveToConner,
@@ -41,4 +43,6 @@ export {
   SocialCommentSample,
   LoveButton,
   HeartBtn,
+  NotiSuccess,
+  KittenCard
 };

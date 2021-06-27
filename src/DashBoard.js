@@ -32,6 +32,8 @@ const listAnimationName = [
   "SocialCommentSample",
   "LoveButton",
   "HeartBtn",
+  "NotiSuccess",
+  "KittenCard",
 ];
 
 const renderItem = (name, navigation, index) => {
